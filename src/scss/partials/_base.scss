@@ -1,3 +1,5 @@
+@import "colors.scss";
+
 body {
     font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif; 
     font-size: 16px;
@@ -5,4 +7,29 @@ body {
   
   p {
     font-family: SourceSansPro-Regular;
+  }
+
+  .story-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 110px;
+  }
+
+  .story-preHeader {
+    color: $white;
+    font-size: 42px;
+    font-family: SourceSansPro-Bold, Arial, Helvetica, sans-serif;
+    z-index: 1;
+    text-transform: uppercase;
+    position: relative;
+    transform: translate(20px, 5px);
+  }
+
+  .story-mainHeader {
+    color: $white;
+    font-size: 130px;
+    font-family: SourceSansPro-Bold, Arial, Helvetica, sans-serif;
+    opacity: 0.2;
+    line-height: 145px;
   }

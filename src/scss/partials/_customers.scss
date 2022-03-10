@@ -1,0 +1,64 @@
+.story-customers-header {
+    margin-top: 175px;
+}
+
+.story-preHeader {
+    color: $black;
+}
+
+.story-mainHeader {
+    color: $black;
+}
+
+.customer-empower {
+    font-family: SourceSansPro-Bold, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: $teal;
+    position: absolute;
+    transform: translate(22px, -55px);
+}
+
+.story-about-customers{
+    flex-wrap: wrap;
+}
+
+.story-customer-item {
+    flex-direction: row;
+    display: flex;
+}
+
+.story-customer-icon {
+    max-width: 130px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.story-customer-info {
+    margin-bottom: 130px;
+    width: 335px;
+}
+
+.customer-header {
+    font-family: SourceSansPro-Bold, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: $black;
+}
+
+.customer-info {
+    font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: $black;
+}
+
+.customer-learn {
+    font-family: SourceSansPro-Bold, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+
+    &::after {
+        font-family: "icomoon";
+        content: "\E909";
+        font-size: 1rem;
+        margin-left: 10px;
+        }
+}
