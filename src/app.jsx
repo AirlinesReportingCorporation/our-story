@@ -99,6 +99,23 @@ class App extends Component {
             </div>
           </div>
         </div>
+        <div className="story-section3">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12" style={{display: "inline-flex", justifyContent: "space-between"}}>
+                <div className="story-section3-item">
+                 <span className="story-section3-header">OUR VISION</span>
+                 <p className="story-section3-text">Enable the growth of global air travel to strengthen economies and enrich lives.</p>
+                </div>
+                <div className="story-section3-item">
+                <span className="story-section3-header">OUR MISSION</span>
+                <p className="story-section3-text">Accelerate the growth of global air travel.</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
