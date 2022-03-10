@@ -385,7 +385,11 @@ class App extends Component {
           </div>
         </div>
         <div className="story-investments">
-          <div className="container" id="investments">
+          <div
+            className="container"
+            style={{ position: "relative", zIndex: "2" }}
+            id="investments"
+          >
             <div className="row">
               <div className="col-lg-12">
                 <div className="story-investments-header story-header">
@@ -399,6 +403,69 @@ class App extends Component {
                   technology. These investments help ARC deliver robust products
                   and services faster and at scale.
                 </p>
+                <div className="investments-section">
+                  <div className="investment-item col-6">
+                    <img
+                      src="https://www2.arccorp.com/globalassets/about-us/our-story/NUTRAVEL.png"
+                      className="investment-icon"
+                      style={{ width: "180px", height: "60px" }}
+                      alt=""
+                    />
+                    <p className="investment-info">
+                      ARC has a majority interest in nuTravel, an independent
+                      company that builds custom and integrated booking, loyalty
+                      management, and e-commerce platforms, supporting
+                      suppliers’ corporate customer strategy. Universal Connect
+                      is their newest solution, offering travel managers the
+                      ability to manage direct bookings.
+                    </p>
+                    <hr className="investment-hr"></hr>
+                  </div>
+                  <div className="investment-item col-6">
+                    <img
+                      src="https://www2.arccorp.com/globalassets/about-us/our-story/BLOCKSKYE.png"
+                      className="investment-icon"
+                      style={{ width: "207px", height: "45px" }}
+                      alt=""
+                    />
+                    <p className="investment-info">
+                      Blockskye is a leader in blockchain solutions for the
+                      travel industry, offering solutions that support sales,
+                      reporting and expense management.
+                    </p>
+                    <hr className="investment-hr"></hr>
+                  </div>
+                  <div className="investment-item col-6">
+                    <img
+                      src="https://www2.arccorp.com/globalassets/about-us/our-story/TRAXO.png"
+                      className="investment-icon"
+                      style={{ width: "197px", height: "58px" }}
+                      alt=""
+                    />
+                    <p className="investment-info">
+                      Traxo’s solutions enable corporate travel managers to see
+                      a complete view of traveler activity by integrating agency
+                      and direct booking data supporting program management and
+                      duty of care..
+                    </p>
+                    <hr className="investment-hr"></hr>
+                  </div>
+                  <div className="investment-item col-6">
+                    <img
+                      src="https://www2.arccorp.com/globalassets/about-us/our-story/3VICTORS.png"
+                      className="investment-icon"
+                      style={{ width: "246px", height: "73px" }}
+                      alt=""
+                    />
+                    <p className="investment-info">
+                      3Victors is a big-data travel technology company that
+                      provides data and analytics to generate insights
+                      uncovering demand, pricing, marketing and revenue
+                      opportunites.
+                    </p>
+                    <hr className="investment-hr"></hr>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

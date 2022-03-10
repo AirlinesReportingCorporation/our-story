@@ -1,9 +1,11 @@
 .story-investments {
-    background-image: url("https://www2.arccorp.com/globalassets/about-us/our-story/ourstory-img3.jpeg");
-    background-size: cover; /* <------ */
+    background-image: url(https://www2.arccorp.com/globalassets/about-us/our-story/ourstory-img3.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: initial;
+    background-position-y: -287px;
     position: relative;
+    background-color: #1f1f1f;
 }
 
 .story-investments::after {
@@ -11,7 +13,7 @@
     position:absolute;
     left:0; top:0;
     width:100%; height:100%;
-    background-image: linear-gradient(to bottom,rgba(31, 31, 31, 0.5), rgba(31, 31, 31, 1))
+    background-image: linear-gradient(to bottom, rgba(31, 31, 31, 0.4), rgba(31, 31, 31, 0.6), rgba(31, 31, 31, 1), rgba(31, 31, 31, 1))
 }
 
 .story-investments-header {
@@ -26,4 +28,36 @@
     font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
     font-size: 24px;
     color: $white;
+    margin-bottom: 85px;
+}
+
+.investments-section {
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateX(30px);
+    margin-bottom: 120px
+}
+
+.investment-item {
+    flex-direction: column;
+    display: flex;
+}
+
+.investment-icon {
+    margin-bottom: 40px;
+}
+
+.investment-info {
+    width: 390px;
+    color: $white;
+    margin-bottom: 35px;
+}
+
+.investment-hr {
+    background-color: $teal;
+    height: 2px;
+    width: 170px;
+    margin: 0;
+    border: none;
+    margin-bottom: 40px;
 }
