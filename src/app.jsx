@@ -149,7 +149,11 @@ class App extends Component {
                 <div className="story-about-customers d-flex">
                   <div className="story-customer-item col-6">
                     <div>
-                    <img src="https://www2.arccorp.com/globalassets/about-us/our-story/Agent.png" alt="" className="story-customer-icon" />
+                      <img
+                        src="https://www2.arccorp.com/globalassets/about-us/our-story/Agent.png"
+                        alt=""
+                        className="story-customer-icon"
+                      />
                     </div>
                     <div className="story-customer-info">
                       <span className="customer-header">
@@ -168,7 +172,11 @@ class App extends Component {
                   </div>
                   <div className="story-customer-item col-6">
                     <div>
-                      <img src="https://www2.arccorp.com/globalassets/about-us/our-story/PLANE.png" alt="" className="story-customer-icon" />
+                      <img
+                        src="https://www2.arccorp.com/globalassets/about-us/our-story/PLANE.png"
+                        alt=""
+                        className="story-customer-icon"
+                      />
                     </div>
                     <div className="story-customer-info">
                       <span className="customer-header">
@@ -187,7 +195,11 @@ class App extends Component {
                   </div>
                   <div className="story-customer-item col-6">
                     <div>
-                    <img src="https://www2.arccorp.com/globalassets/about-us/our-story/CORPORATE.png" alt="" className="story-customer-icon" />
+                      <img
+                        src="https://www2.arccorp.com/globalassets/about-us/our-story/CORPORATE.png"
+                        alt=""
+                        className="story-customer-icon"
+                      />
                     </div>
                     <div className="story-customer-info">
                       <span className="customer-header">
@@ -205,7 +217,11 @@ class App extends Component {
                   </div>
                   <div className="story-customer-item col-6">
                     <div>
-                    <img src="https://www2.arccorp.com/globalassets/about-us/our-story/DATA.png" alt="" className="story-customer-icon" />
+                      <img
+                        src="https://www2.arccorp.com/globalassets/about-us/our-story/DATA.png"
+                        alt=""
+                        className="story-customer-icon"
+                      />
                     </div>
                     <div className="story-customer-info">
                       <span className="customer-header">
@@ -223,6 +239,43 @@ class App extends Component {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="story-expertise">
+          <div className="container" id="expertise">
+            <div className="row">
+              <div className="col-lg-12"></div>
+            </div>
+          </div>
+        </div>
+        <div className="story-investments">
+          <div className="container" id="investments">
+            <div className="row">
+              <div className="col-lg-12"></div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="story-brand">
+            <div className="container" id="expertise">
+              <div className="row">
+                <div className="col-lg-12"></div>
+              </div>
+            </div>
+          </div>
+          <div className="story-people">
+            <div className="container" id="expertise">
+              <div className="row">
+                <div className="col-lg-12"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="story-commitment">
+          <div className="container" id="expertise">
+            <div className="row">
+              <div className="col-lg-12"></div>
             </div>
           </div>
         </div>
