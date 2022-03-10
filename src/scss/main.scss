@@ -1,6 +1,8 @@
 //Site Wide: 
-@import "base.scss";
-@import "colors.scss";
+@import "partials/base.scss";
+@import "partials/colors.scss";
 
 //Sections:
-@import "section1.scss";
+@import "partials/sticky.scss";
+@import "partials/section1.scss";
+@import "partials/section2.scss";

@@ -1,0 +1,63 @@
+.story-section2 {
+    background-color: #1f1f1f;
+    background-size: cover; /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.story-section2-globe {
+    background-image: url("https://www2.arccorp.com/globalassets/about-us/our-story/globe.png");
+    background-size:auto; /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+    position: relative;
+}
+
+.story-section2-p1, .story-section2-p2 {
+    text-align: center;
+    color: $white;
+    font-size: 30px;
+    max-width: 695px;
+    margin: auto;
+}
+
+.story-section2-p1 {
+    margin-top: 240px;
+}
+
+.story-section2-number {
+    color: $white;
+    opacity: 0.3;
+    font-size: 160px;
+    letter-spacing: -5px;
+}
+
+.story-section2-center {
+    font-family: SourceSansPro-Bold, Arial, Helvetica, sans-serif; 
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+
+}
+
+.story-section2-billion {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    transform: translateX(-10px) translateY(110px);
+    opacity: 0.3;
+}
+
+.story-section2-text {
+    color: $teal;
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 170px;
+}
+
+.story-section2-p2 {
+    margin-bottom: 235px;
+}
