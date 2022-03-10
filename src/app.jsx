@@ -143,8 +143,12 @@ class App extends Component {
               <div className="col-lg-12">
                 <div className="story-customers-header story-header">
                   <span className="customer-empower">How We Empower</span>
-                  <span className="story-preHeader">Our</span>{" "}
-                  <span className="story-mainHeader">Customers</span>
+                  <span className="story-preHeader" style={{ color: "black" }}>
+                    Our
+                  </span>{" "}
+                  <span className="story-mainHeader" style={{ color: "black" }}>
+                    Customers
+                  </span>
                 </div>
                 <div className="story-about-customers d-flex">
                   <div className="story-customer-item col-6">
@@ -242,13 +246,139 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div className="story-expertise">
-          <div className="container" id="expertise">
+          <div className="container story-expertise" id="expertise">
             <div className="row">
-              <div className="col-lg-12"></div>
+              <div className="col-lg-12">
+                <img
+                  src="https://www2.arccorp.com/globalassets/about-us/our-story/slants.png"
+                  alt=""
+                  className="story-slants expertise-top-slants"
+                />
+                <div className="story-expertise-header story-header">
+                  <span className="story-preHeader">Our</span>{" "}
+                  <span className="story-mainHeader">Expertise</span>
+                </div>
+                <div className="expertise-info">
+                  <div className="expertise-data">
+                    <span className="expertise-info-header">
+                      Global Data & Analytics
+                    </span>
+                    <div className="expertise-item">
+                      <p className="expertise-info-text">
+                        See a sample of our data in action. <br></br>
+                        <a href="" className="expertise-info-link">
+                          Our Data at a glance
+                        </a>
+                      </p>
+                    </div>
+                    <div className="expertise-item">
+                      <p className="expertise-info-text">
+                        View a snapshot of the past month’s travel agency sales.{" "}
+                        <br></br>
+                        <a href="" className="expertise-info-link">
+                          Current sales statistics
+                        </a>
+                      </p>
+                    </div>
+                    <div className="expertise-item">
+                      <p className="expertise-info-text">
+                        ARC data powers industry research and solutions provided
+                        by many partners, including, ForwardKeys and Skytra.{" "}
+                        <br></br>
+                        <a href="" className="expertise-info-link">
+                          Data as a service
+                        </a>
+                      </p>
+                    </div>
+                    <div className="expertise-item">
+                      <p className="expertise-info-text">
+                        ARC offers flexible data solutions to fit your company’s
+                        needs. <br></br>
+                        <a href="" className="expertise-info-link">
+                          Our Data Products
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="expertise-data">
+                    <span className="expertise-info-header">
+                      Distribution & Financial Services
+                    </span>
+                    <div className="expertise-item">
+                      <p className="expertise-info-text">
+                        Learn how we’re connecting the travel industry to create
+                        a “buy anywhere, service anywhere” ecosystem. <br></br>
+                        <a href="" className="expertise-info-link">
+                          Omnichannel Retailing
+                        </a>
+                      </p>
+                    </div>
+                    <div className="expertise-item">
+                      <p className="expertise-info-text">
+                        Partner with ARC to use NDC in your distribution
+                        strategy. <br></br>
+                        <a href="" className="expertise-info-link">
+                          ARC Direct Connect (NDC)
+                        </a>
+                      </p>
+                    </div>
+                    <div className="expertise-item">
+                      <p className="expertise-info-text">
+                        ARC enables U.S. travel agencies and global travel
+                        suppliers to work together efficiently. <br></br>
+                        <a href="" className="expertise-info-link">
+                          Settlement
+                        </a>
+                      </p>
+                    </div>
+                    <div className="expertise-item">
+                      <p className="expertise-info-text">
+                        ARC provides payment-processing tools for travel
+                        agencies, industry payment updates and more. <br></br>
+                        <a href="" className="expertise-info-link">
+                          Payment Processing
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="expertise-data">
+                    <span className="expertise-info-header">
+                      Technology & Innovation
+                    </span>
+                    <div className="expertise-item">
+                      <p className="expertise-info-text">
+                      ARC’s innovative, cloud-based infrastructure and solutions drive return for the global air travel community. <br></br>
+                        <a href="" className="expertise-info-link">
+                          Our Technology
+                        </a>
+                      </p>
+                    </div>
+                    <div className="expertise-item">
+                      <p className="expertise-info-text">
+                      ARC’s analyzes the latest travel-related fraud schemes and delivers timely alert and resources to the industry. <br></br>
+                        <a href="" className="expertise-info-link">
+                          Fraud Prevention
+                        </a>
+                      </p>
+                    </div>
+                    <div className="expertise-item">
+                      <p className="expertise-info-text">
+                      See the latest updates and innovations from the ARC team. <br></br>
+                        <a href="" className="expertise-info-link">
+                          The Latest From ARC
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  src="https://www2.arccorp.com/globalassets/about-us/our-story/slants.png"
+                  alt=""
+                  className="story-slants expertise-bottom-slants"
+                />
+              </div>
             </div>
           </div>
-        </div>
         <div className="story-investments">
           <div className="container" id="investments">
             <div className="row">
