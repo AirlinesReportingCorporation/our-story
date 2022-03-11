@@ -33,3 +33,22 @@ body {
     opacity: 0.2;
     line-height: 145px;
   }
+
+  @media (max-width: 990px) {
+    .story-header {
+      margin-bottom: 50px;
+    }
+
+    .story-mainHeader {
+      font-size: 50px;
+    }
+
+    .story-preHeader {
+      font-size: 20px;
+      transform: translate(10px, 5px);
+    }
+  
+  }
+  
+
+  

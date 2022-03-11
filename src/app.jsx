@@ -114,9 +114,10 @@ class App extends Component {
           <div className="container">
             <div className="row">
               <div
-                className="col-lg-12"
+                className="col-lg-6"
                 style={{
                   display: "inline-flex",
+                  flexWrap: "wrap",
                   justifyContent: "space-between",
                 }}
               >
@@ -151,7 +152,7 @@ class App extends Component {
                   </span>
                 </div>
                 <div className="story-about-customers d-flex">
-                  <div className="story-customer-item col-6">
+                  <div className="story-customer-item col-lg-6">
                     <div>
                       <img
                         src="https://www2.arccorp.com/globalassets/about-us/our-story/Agent.png"
@@ -174,7 +175,7 @@ class App extends Component {
                       </a>
                     </div>
                   </div>
-                  <div className="story-customer-item col-6">
+                  <div className="story-customer-item col-lg-6">
                     <div>
                       <img
                         src="https://www2.arccorp.com/globalassets/about-us/our-story/PLANE.png"
@@ -197,7 +198,7 @@ class App extends Component {
                       </a>
                     </div>
                   </div>
-                  <div className="story-customer-item col-6">
+                  <div className="story-customer-item col-lg-6">
                     <div>
                       <img
                         src="https://www2.arccorp.com/globalassets/about-us/our-story/CORPORATE.png"
@@ -219,7 +220,7 @@ class App extends Component {
                       </a>
                     </div>
                   </div>
-                  <div className="story-customer-item col-6">
+                  <div className="story-customer-item col-lg-6">
                     <div>
                       <img
                         src="https://www2.arccorp.com/globalassets/about-us/our-story/DATA.png"
@@ -404,7 +405,7 @@ class App extends Component {
                   and services faster and at scale.
                 </p>
                 <div className="investments-section">
-                  <div className="investment-item col-6">
+                  <div className="investment-item col-lg-6">
                     <a href="http://nutravel.com/" target={"_blank"}>
                     <img
                       src="https://www2.arccorp.com/globalassets/about-us/our-story/NUTRAVEL.png"
@@ -423,7 +424,7 @@ class App extends Component {
                     </p>
                     <hr className="investment-hr"></hr>
                   </div>
-                  <div className="investment-item col-6">
+                  <div className="investment-item col-lg-6">
                     <a href="https://www.blockskye.com/" target={"_blank"}>
                     <img
                       src="https://www2.arccorp.com/globalassets/about-us/our-story/BLOCKSKYE.png"
@@ -439,7 +440,7 @@ class App extends Component {
                     </p>
                     <hr className="investment-hr"></hr>
                   </div>
-                  <div className="investment-item col-6">
+                  <div className="investment-item col-lg-6">
                     <a href="https://www.traxo.com/" target={"_blank"}>
                     <img
                       src="https://www2.arccorp.com/globalassets/about-us/our-story/TRAXO.png"
@@ -456,7 +457,7 @@ class App extends Component {
                     </p>
                     <hr className="investment-hr"></hr>
                   </div>
-                  <div className="investment-item col-6">
+                  <div className="investment-item col-lg-6">
                     <a href="https://www.3victors.com/" target={"_blank"}>
                     <img
                       src="https://www2.arccorp.com/globalassets/about-us/our-story/3VICTORS.png"
@@ -484,7 +485,7 @@ class App extends Component {
               <div className="row">
                 <div className="col-lg-6 story-section7-col">
                   <div
-                    className="story-section7-header story-header"
+                    className="story-section7-header brand-header story-header"
                     style={{ marginRight: "28px" }}
                   >
                     <span className="story-preHeader">Our</span>{" "}

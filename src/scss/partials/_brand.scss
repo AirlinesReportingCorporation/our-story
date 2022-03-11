@@ -24,6 +24,7 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .section7-p {
@@ -48,11 +49,6 @@
         margin-left: 10px;
         }
 }
-
-#brand {
-    margin-left: 55px;
-}
-
 .story-brand {
   background-image: url("https://www2.arccorp.com/globalassets/about-us/our-story/ourstory-img5.jpeg");
   background-size: contain; /* <------ */
@@ -72,4 +68,30 @@
   height: 100%;
   background-image: linear-gradient(to bottom, rgba(31, 31, 31, 0), rgba(31, 31, 31, 0.8), #1f1f1f, #1f1f1f, #1f1f1f)
 
+}
+
+@media (max-width: 990px) {
+
+  .section7-container {
+    justify-content: center;
+  }
+
+  .story-section7-header {
+    margin-top: 118px;
+  }
+
+  .section7-p {
+    width: 343px;
+    text-align: center;
+  }
+
+  .story-brand {
+    max-width: 350px;
+    height: 500px;
+    margin-bottom: 20px;
+  }
+
+  .brand-header {
+    margin-right: 0;
+}
 }

@@ -39,6 +39,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 55px;
+    flex-wrap: wrap;
 
 }
 
@@ -61,3 +62,9 @@
 .story-section2-p2 {
     margin-bottom: 235px;
 }
+
+@media (max-width: 990px) {
+    .story-section2-center {
+        justify-content: center;
+    }
+ }
