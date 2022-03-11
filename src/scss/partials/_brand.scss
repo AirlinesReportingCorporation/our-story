@@ -1,0 +1,68 @@
+.story-section7 {
+  background-color: #1f1f1f;
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  padding-bottom: 55px;
+}
+
+.story-section7-col {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story-section7-header {
+    margin-top: 334px;
+    margin-bottom: 20px;
+}
+
+.section7-p {
+    position: relative;
+    z-index: 2;
+    color: $white;
+    font-size: 20px;
+    width: 420px;
+    
+}
+
+.section7-a {
+    text-transform: uppercase;
+    font-family: SourceSansPro-Semibold, Arial, Helvetica, sans-serif;
+    line-height: 45px;
+
+
+    &::after {
+        font-family: "icomoon";
+        content: "\E909";
+        font-size: 1rem;
+        margin-left: 10px;
+        }
+}
+
+#brand {
+    margin-left: 55px;
+}
+
+.story-brand {
+  background-image: url("https://www2.arccorp.com/globalassets/about-us/our-story/ourstory-img5.jpeg");
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  position: relative;
+  max-width: 700px;
+  border-radius: 10px;
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  height: 800px;
+}
+.story-brand::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(31, 31, 31, 0), rgba(31, 31, 31, 0.8), #1f1f1f, #1f1f1f, #1f1f1f)
+
+}

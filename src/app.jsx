@@ -470,24 +470,52 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div>
-          <div className="story-brand">
-            <div className="container" id="expertise">
+        <div className="story-section7">
+          <div className="container" id="brand">
+            <div className="story-brand">
               <div className="row">
-                <div className="col-lg-12"></div>
+                <div className="col-lg-6 story-section7-col">
+                  <div className="story-section7-header story-header" style={{marginRight: "28px"}}>
+                    <span className="story-preHeader">Our</span>{" "}
+                    <span className="story-mainHeader">Brand</span>
+                  </div>
+                  <p className="section7-p brand-p">
+                    Our brand identity reflects our expertise, our pride in our
+                    work and our vision for the future. <br />
+                    <a href="" className="section7-a">
+                      About the Brand
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div className="story-people">
-            <div className="container" id="expertise">
-              <div className="row">
-                <div className="col-lg-12"></div>
+          <div className="container story-people" id="people">
+            <div className="row">
+              <div className="col-lg-6 story-section7-col">
+                <div className="story-section7-header story-header">
+                  <span className="story-preHeader">Our</span>{" "}
+                  <span className="story-mainHeader">People</span>
+                </div>
+                <p className="section7-p people-p">
+                  ARC is home to some of the most brilliant minds in the travel
+                  industry. We find fullfilment in helping our customers thrive.
+                  We thing big, embrace challenges and identify creative
+                  solutions. <br />
+                  <a href="" className="section7-a">
+                    Meet our Leadership
+                  </a>{" "}
+                  <br />
+                  <a href="" className="section7-a">
+                    Join our Team
+                  </a>
+                </p>
               </div>
             </div>
           </div>
         </div>
         <div className="story-commitment">
-          <div className="container" id="expertise">
+          <div className="container">
             <div className="row">
               <div className="col-lg-12"></div>
             </div>
