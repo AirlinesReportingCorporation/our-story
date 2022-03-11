@@ -475,7 +475,10 @@ class App extends Component {
             <div className="story-brand">
               <div className="row">
                 <div className="col-lg-6 story-section7-col">
-                  <div className="story-section7-header story-header" style={{marginRight: "28px"}}>
+                  <div
+                    className="story-section7-header story-header"
+                    style={{ marginRight: "28px" }}
+                  >
                     <span className="story-preHeader">Our</span>{" "}
                     <span className="story-mainHeader">Brand</span>
                   </div>
@@ -517,7 +520,24 @@ class App extends Component {
         <div className="story-commitment">
           <div className="container">
             <div className="row">
-              <div className="col-lg-12"></div>
+              <div className="col-lg-12">
+                <div className="story-header commitment-header">
+                  <span className="story-preHeader">Our</span>{" "}
+                  <span className="story-mainHeader">Commitment</span>
+                </div>
+                <p className="commitment-p">
+                  Our vision to enable the growth of global air travel to
+                  strengthen economies and enrich lives. We are dedicated to
+                  developing our organization and culture to realize this
+                  vision. Our <a href="" className="commitment-a">Code of Conduct</a> reflects our commitment to
+                  accomplishing this through compliance with applicable laws and
+                  regulations and by adopting best practices that will set us
+                  apart from our competitors.
+                </p>
+                <small className="commitment-small">
+                Navex Global EthicsPoint (an independent, anonymous service) can be accessed 24/7 by phone at 1-866-294-5698 or through their <a href="" className="commitment-a">online portal</a> (enter entity name as Airlines Reporting Corporation). 
+                </small>
+              </div>
             </div>
           </div>
         </div>

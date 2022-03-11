@@ -1,0 +1,25 @@
+.story-commitment {
+    background-color: #1f1f1f;
+    background-size: cover; /* <------ */
+    padding-bottom: 250px;
+}
+
+.commitment-header {
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+
+.commitment-p {
+    color: $white;
+    font-size: 20px
+}
+
+.commitment-small {
+    color: white;
+    font-size: 16px;
+}
+
+.commitment-a {
+    font-family: SourceSansPro-Regular, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
