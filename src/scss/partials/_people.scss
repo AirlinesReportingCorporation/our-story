@@ -1,18 +1,11 @@
 .story-people {
-    background-image: url("https://www2.arccorp.com/globalassets/about-us/our-story/ourstory-img4.jpeg");
+    background-image: url("https://www2.arccorp.com/globalassets/about-us/our-story/our-people.png");
     background-size: contain; /* <------ */
     background-repeat: no-repeat;
     position: relative;
     max-width: 700px;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-}
-.story-people::after {
-    content:'';
-    position:absolute;
-    left:0; top:0;
-    width:100%; height:100%;
-    background-image: linear-gradient(to bottom, rgba(31, 31, 31, 0), rgba(31, 31, 31, 0.8), #1f1f1f, #1f1f1f, #1f1f1f)
 }
 
 @media (max-width: 990px) {

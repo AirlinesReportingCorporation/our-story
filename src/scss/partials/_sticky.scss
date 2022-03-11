@@ -65,3 +65,9 @@
     margin-left: 0px;
     color: #ffffff;
   }
+
+@media (max-width: 990px) {
+  .story-sticky-container {
+    display: none;
+  }
+}
