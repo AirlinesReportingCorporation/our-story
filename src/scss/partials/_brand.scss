@@ -24,7 +24,6 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
-    flex-wrap: wrap;
 }
 
 .section7-p {
@@ -64,6 +63,8 @@
 
   .section7-container {
     justify-content: center;
+    flex-wrap: wrap;
+
   }
 
   .story-section7-header {

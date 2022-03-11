@@ -114,7 +114,7 @@ class App extends Component {
           <div className="container">
             <div className="row">
               <div
-                className="col-lg-6"
+                className="col-lg-12"
                 style={{
                   display: "inline-flex",
                   flexWrap: "wrap",
@@ -260,7 +260,7 @@ class App extends Component {
                 <span className="story-mainHeader">Expertise</span>
               </div>
               <div className="expertise-info">
-                <div className="expertise-data">
+                <div className="expertise-data col-lg-3">
                   <span className="expertise-info-header">
                     Global Data & Analytics
                   </span>
@@ -301,7 +301,7 @@ class App extends Component {
                     </p>
                   </div>
                 </div>
-                <div className="expertise-data">
+                <div className="expertise-data col-lg-3">
                   <span className="expertise-info-header">
                     Distribution & Financial Services
                   </span>
@@ -342,7 +342,7 @@ class App extends Component {
                     </p>
                   </div>
                 </div>
-                <div className="expertise-data">
+                <div className="expertise-data col-lg-3">
                   <span className="expertise-info-header">
                     Technology & Innovation
                   </span>
@@ -405,7 +405,7 @@ class App extends Component {
                   and services faster and at scale.
                 </p>
                 <div className="investments-section">
-                  <div className="investment-item col-lg-6">
+                  <div className="investment-item col-md-6">
                     <a href="http://nutravel.com/" target={"_blank"}>
                     <img
                       src="https://www2.arccorp.com/globalassets/about-us/our-story/NUTRAVEL.png"
@@ -424,7 +424,7 @@ class App extends Component {
                     </p>
                     <hr className="investment-hr"></hr>
                   </div>
-                  <div className="investment-item col-lg-6">
+                  <div className="investment-item col-md-6">
                     <a href="https://www.blockskye.com/" target={"_blank"}>
                     <img
                       src="https://www2.arccorp.com/globalassets/about-us/our-story/BLOCKSKYE.png"
@@ -440,7 +440,7 @@ class App extends Component {
                     </p>
                     <hr className="investment-hr"></hr>
                   </div>
-                  <div className="investment-item col-lg-6">
+                  <div className="investment-item col-md-6">
                     <a href="https://www.traxo.com/" target={"_blank"}>
                     <img
                       src="https://www2.arccorp.com/globalassets/about-us/our-story/TRAXO.png"
@@ -457,7 +457,7 @@ class App extends Component {
                     </p>
                     <hr className="investment-hr"></hr>
                   </div>
-                  <div className="investment-item col-lg-6">
+                  <div className="investment-item col-md-6">
                     <a href="https://www.3victors.com/" target={"_blank"}>
                     <img
                       src="https://www2.arccorp.com/globalassets/about-us/our-story/3VICTORS.png"

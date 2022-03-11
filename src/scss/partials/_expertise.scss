@@ -22,9 +22,9 @@
 }
 
 .expertise-info {
-  margin: auto 65px;
-  display: flex;
-  flex-wrap: wrap;
+  margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .expertise-data {
@@ -39,8 +39,7 @@
 }
 
 .expertise-item {
-  margin-top: 40px;
-  width: 315px;
+  margin-top: 20px;
 }
 
 .expertise-info-text {
@@ -78,5 +77,6 @@
 
   .expertise-info {
     justify-content: center;
+    flex-wrap: wrap;
   }
 }

@@ -65,6 +65,9 @@
 
 @media (max-width: 990px) {
     .story-section2-center {
+        flex-direction: column;
         justify-content: center;
+        text-align: center;
+
     }
  }
