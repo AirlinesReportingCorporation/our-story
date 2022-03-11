@@ -19,6 +19,13 @@
     margin-bottom: 20px;
 }
 
+.section7-container {
+  flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
 .section7-p {
     position: relative;
     z-index: 2;

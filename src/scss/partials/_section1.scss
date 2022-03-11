@@ -68,3 +68,9 @@
 .story-text-span {
     max-width: 1070px;
 }
+
+@media (max-width: 990px) {
+   .story-title {
+       font-size: 100px;
+   }
+}

@@ -479,8 +479,8 @@ class App extends Component {
           </div>
         </div>
         <div className="story-section7">
-          <div className="container" id="brand">
-            <div className="story-brand">
+          <div className="container section7-container">
+            <div className="story-brand" id="brand">
               <div className="row">
                 <div className="col-lg-6 story-section7-col">
                   <div
@@ -500,9 +500,7 @@ class App extends Component {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="container story-people" id="people">
-            <div className="row">
+            <div className="row" className="story-people" id="people">
               <div className="col-lg-6 story-section7-col">
                 <div className="story-section7-header story-header">
                   <span className="story-preHeader">Our</span>{" "}
