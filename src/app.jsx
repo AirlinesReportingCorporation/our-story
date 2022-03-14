@@ -302,7 +302,7 @@ class App extends Component {
                       </a>
                     </p>
                   </div>
-                  <div className="expertise-item">
+                  {/* <div className="expertise-item">
                     <p className="expertise-info-text">
                       ARC data powers industry research and solutions provided
                       by many partners, including, ForwardKeys and Skytra.{" "}
@@ -311,8 +311,8 @@ class App extends Component {
                         Data as a service
                       </a>
                     </p>
-                  </div>
-                  <div className="expertise-item">
+                  </div> */}
+                  {/* <div className="expertise-item">
                     <p className="expertise-info-text">
                       ARC offers flexible data solutions to fit your company’s
                       needs. <br></br>
@@ -320,7 +320,7 @@ class App extends Component {
                         Our Data Products
                       </a>
                     </p>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="expertise-data col-lg-3">
                   <span className="expertise-info-header">
