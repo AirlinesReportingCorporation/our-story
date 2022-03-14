@@ -98,7 +98,7 @@ class App extends Component {
                 <div className="col-lg-4">
                   <div className="story-section2-passenger">
                     <div className="story-section2-data">
-                      <div className="story-section2-number">23</div>
+                      <div className="story-section2-number">230</div>
                     </div>
                     <div className="story-section2-text">
                       Countries & Territories
