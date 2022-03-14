@@ -164,9 +164,9 @@ class App extends Component {
                       />
                     </div>
                     <div className="story-customer-info">
-                      <span className="customer-header">
+                      <div className="customer-header">
                         Equipping Travel Agencies
-                      </span>
+                      </div>
                       <p className="customer-info">
                         We help agencies build strong industry relationships,
                         settle transactions with airlines and customers,
@@ -190,9 +190,9 @@ class App extends Component {
                       />
                     </div>
                     <div className="story-customer-info">
-                      <span className="customer-header">
+                      <div className="customer-header">
                         Enabling Airline Success
-                      </span>
+                      </div>
                       <p className="customer-info">
                         Our data, distribution and financial solutions help
                         airlines settle transactions with travel agencies and
@@ -216,9 +216,9 @@ class App extends Component {
                       />
                     </div>
                     <div className="story-customer-info">
-                      <span className="customer-header">
+                      <div className="customer-header">
                         Guiding Corporate Travel Programs
-                      </span>
+                      </div>
                       <p className="customer-info">
                         We provide solutions and analytics to help corporations
                         seamlessly engage with airlines across multiple channels
@@ -241,9 +241,9 @@ class App extends Component {
                       />
                     </div>
                     <div className="story-customer-info">
-                      <span className="customer-header">
+                      <div className="customer-header">
                         Providing High-Quality Travel Data
-                      </span>
+                      </div>
                       <p className="customer-info">
                         ARC’s data reflects large-scale travel trends and the
                         smallest details, enabling companies to target audiences
@@ -395,7 +395,7 @@ class App extends Component {
                   <div className="expertise-item">
                     <p className="expertise-info-text">
                       ARC’s analyzes the latest travel-related fraud schemes and
-                      delivers timely alert and resources to the industry.{" "}
+                      delivers timely alerts and resources to the industry.{" "}
                       <br></br>
                       <a
                         href="https://www2.arccorp.com/support-training/fraud-prevention/"
@@ -495,7 +495,7 @@ class App extends Component {
                       Traxo’s solutions enable corporate travel managers to see
                       a complete view of traveler activity by integrating agency
                       and direct booking data supporting program management and
-                      duty of care..
+                      duty of care.
                     </p>
                     <hr className="investment-hr"></hr>
                   </div>
@@ -512,7 +512,7 @@ class App extends Component {
                       3Victors is a big-data travel technology company that
                       provides data and analytics to generate insights
                       uncovering demand, pricing, marketing and revenue
-                      opportunites.
+                      opportunities.
                     </p>
                     <hr className="investment-hr"></hr>
                   </div>
@@ -553,8 +553,8 @@ class App extends Component {
                   </div>
                   <p className="section7-p people-p">
                     ARC is home to some of the most brilliant minds in the
-                    travel industry. We find fullfilment in helping our
-                    customers thrive. We thing big, embrace challenges and
+                    travel industry. We find fulfillment in helping our
+                    customers thrive. We think big, embrace challenges and
                     identify creative solutions. <br />
                     <a
                       href="https://www2.arccorp.com/about-us/leadership-governance/"
@@ -584,7 +584,7 @@ class App extends Component {
                   <span className="story-mainHeader">Commitment</span>
                 </div>
                 <p className="commitment-p">
-                  Our vision to enable the growth of global air travel to
+                  Our vision is to enable the growth of global air travel to
                   strengthen economies and enrich lives. We are dedicated to
                   developing our organization and culture to realize this
                   vision. Our{" "}
