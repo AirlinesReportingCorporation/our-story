@@ -72,36 +72,44 @@ class App extends Component {
                   ARC possesses the world’s largest, most comprehensive
                   repository of global airline tickets:
                 </div>
-                <div className="story-section2-center">
+              </div>
+            </div>
+
+            <div className="story-section2-center">
+              <div className="row">
+                <div className="col-lg-4">
                   <div className="story-section2-passenger">
-                    <span className="story-section2-number">15</span>{" "}
-                    <span className="story-section2-billion">Billion</span>{" "}
-                    <span
-                      className="story-section2-text"
-                      style={{ marginLeft: "-158px" }}
-                    >
-                      Passenger Flights
-                    </span>
-                  </div>
-                  <div className="story-section2-passenger">
-                    <span className="story-section2-number">490</span>
-                    <span
-                      className="story-section2-text"
-                      style={{ marginLeft: "-182px" }}
-                    >
-                      Airlines
-                    </span>
-                  </div>
-                  <div className="story-section2-passenger">
-                    <span className="story-section2-number">23</span>{" "}
-                    <span
-                      className="story-section2-text"
-                      style={{ marginLeft: "-149px" }}
-                    >
-                      Countries & Territories
-                    </span>
+                    <div className="story-section2-data">
+                      <div className="story-section2-number">15</div>{" "}
+                      <div className="story-section2-billion">Billion</div>
+                    </div>
+                    <div className="story-section2-text">Passenger Flights</div>
                   </div>
                 </div>
+                <div className="col-lg-4">
+                  <div className="story-section2-passenger">
+                    <div className="story-section2-data">
+                      <div className="story-section2-number">490</div>
+                    </div>
+
+                    <div className="story-section2-text">Airlines</div>
+                  </div>
+                </div>
+                <div className="col-lg-4">
+                  <div className="story-section2-passenger">
+                    <div className="story-section2-data">
+                      <div className="story-section2-number">23</div>
+                    </div>
+                    <div className="story-section2-text">
+                      Countries & Territories
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-lg-12">
                 <div className="story-section2-p2">
                   We use our knowledge to connect stakeholders across the travel
                   ecosystem.
@@ -113,14 +121,7 @@ class App extends Component {
         <div className="story-section3">
           <div className="container">
             <div className="row">
-              <div
-                className="col-lg-12"
-                style={{
-                  display: "inline-flex",
-                  flexWrap: "wrap",
-                  justifyContent: "space-between",
-                }}
-              >
+              <div className="col-lg-6">
                 <div className="story-section3-item">
                   <span className="story-section3-header">OUR VISION</span>
                   <p className="story-section3-text">
@@ -128,6 +129,8 @@ class App extends Component {
                     economies and enrich lives.
                   </p>
                 </div>
+              </div>
+              <div className="col-lg-6">
                 <div className="story-section3-item">
                   <span className="story-section3-header">OUR MISSION</span>
                   <p className="story-section3-text">
@@ -170,7 +173,10 @@ class App extends Component {
                         seamlessly manage travel for their clients, and grow
                         their businesses.
                       </p>
-                      <a href="https://www2.arccorp.com/products-participation/travel-agencies/" className="customer-learn">
+                      <a
+                        href="https://www2.arccorp.com/products-participation/travel-agencies/"
+                        className="customer-learn"
+                      >
                         Learn More
                       </a>
                     </div>
@@ -193,7 +199,10 @@ class App extends Component {
                         corporations, grow their businesses, and increase
                         profitability across all channels of distribution.
                       </p>
-                      <a href="https://www2.arccorp.com/products-participation/airlines/" className="customer-learn">
+                      <a
+                        href="https://www2.arccorp.com/products-participation/airlines/"
+                        className="customer-learn"
+                      >
                         Learn More
                       </a>
                     </div>
@@ -215,7 +224,10 @@ class App extends Component {
                         seamlessly engage with airlines across multiple channels
                         and strategically manage their travel programs.
                       </p>
-                      <a href="https://www2.arccorp.com/products-participation/corporations/" className="customer-learn">
+                      <a
+                        href="https://www2.arccorp.com/products-participation/corporations/"
+                        className="customer-learn"
+                      >
                         Learn More
                       </a>
                     </div>
@@ -237,7 +249,10 @@ class App extends Component {
                         smallest details, enabling companies to target audiences
                         and predict demand.
                       </p>
-                      <a href="https://www2.arccorp.com/products-participation/other-data-users/" className="customer-learn">
+                      <a
+                        href="https://www2.arccorp.com/products-participation/other-data-users/"
+                        className="customer-learn"
+                      >
                         Learn More
                       </a>
                     </div>
@@ -267,7 +282,10 @@ class App extends Component {
                   <div className="expertise-item">
                     <p className="expertise-info-text">
                       See a sample of our data in action. <br></br>
-                      <a href="https://www2.arccorp.com/about-us/our-data/" className="expertise-info-link">
+                      <a
+                        href="https://www2.arccorp.com/about-us/our-data/"
+                        className="expertise-info-link"
+                      >
                         Our Data at a glance
                       </a>
                     </p>
@@ -276,7 +294,10 @@ class App extends Component {
                     <p className="expertise-info-text">
                       View a snapshot of the past month’s travel agency sales.{" "}
                       <br></br>
-                      <a href="https://www2.arccorp.com/articles-trends/sales-statistics/" className="expertise-info-link">
+                      <a
+                        href="https://www2.arccorp.com/articles-trends/sales-statistics/"
+                        className="expertise-info-link"
+                      >
                         Current sales statistics
                       </a>
                     </p>
@@ -309,7 +330,10 @@ class App extends Component {
                     <p className="expertise-info-text">
                       Learn how we’re connecting the travel industry to create a
                       “buy anywhere, service anywhere” ecosystem. <br></br>
-                      <a href="https://www2.arccorp.com/about-us/arc-omnichannel-retailing/" className="expertise-info-link">
+                      <a
+                        href="https://www2.arccorp.com/about-us/arc-omnichannel-retailing/"
+                        className="expertise-info-link"
+                      >
                         Omnichannel Retailing
                       </a>
                     </p>
@@ -318,7 +342,10 @@ class App extends Component {
                     <p className="expertise-info-text">
                       Partner with ARC to use NDC in your distribution strategy.{" "}
                       <br></br>
-                      <a href="https://www2.arccorp.com/products-participation/distribution/" className="expertise-info-link">
+                      <a
+                        href="https://www2.arccorp.com/products-participation/distribution/"
+                        className="expertise-info-link"
+                      >
                         ARC Direct Connect (NDC)
                       </a>
                     </p>
@@ -327,7 +354,10 @@ class App extends Component {
                     <p className="expertise-info-text">
                       ARC enables U.S. travel agencies and global travel
                       suppliers to work together efficiently. <br></br>
-                      <a href="https://www2.arccorp.com/about-us/settlement-services/" className="expertise-info-link">
+                      <a
+                        href="https://www2.arccorp.com/about-us/settlement-services/"
+                        className="expertise-info-link"
+                      >
                         Settlement
                       </a>
                     </p>
@@ -336,7 +366,10 @@ class App extends Component {
                     <p className="expertise-info-text">
                       ARC provides payment-processing tools for travel agencies,
                       industry payment updates and more. <br></br>
-                      <a href="https://www2.arccorp.com/products-participation/products/arc-pay/" className="expertise-info-link">
+                      <a
+                        href="https://www2.arccorp.com/products-participation/products/arc-pay/"
+                        className="expertise-info-link"
+                      >
                         Payment Processing
                       </a>
                     </p>
@@ -351,7 +384,10 @@ class App extends Component {
                       ARC’s innovative, cloud-based infrastructure and solutions
                       drive return for the global air travel community.{" "}
                       <br></br>
-                      <a href="https://www2.arccorp.com/about-us/our-technology/" className="expertise-info-link">
+                      <a
+                        href="https://www2.arccorp.com/about-us/our-technology/"
+                        className="expertise-info-link"
+                      >
                         Our Technology
                       </a>
                     </p>
@@ -361,7 +397,10 @@ class App extends Component {
                       ARC’s analyzes the latest travel-related fraud schemes and
                       delivers timely alert and resources to the industry.{" "}
                       <br></br>
-                      <a href="https://www2.arccorp.com/support-training/fraud-prevention/" className="expertise-info-link">
+                      <a
+                        href="https://www2.arccorp.com/support-training/fraud-prevention/"
+                        className="expertise-info-link"
+                      >
                         Fraud Prevention
                       </a>
                     </p>
@@ -370,7 +409,10 @@ class App extends Component {
                     <p className="expertise-info-text">
                       See the latest updates and innovations from the ARC team.{" "}
                       <br></br>
-                      <a href="https://www2.arccorp.com/about-us/newsroom/" className="expertise-info-link">
+                      <a
+                        href="https://www2.arccorp.com/about-us/newsroom/"
+                        className="expertise-info-link"
+                      >
                         The Latest From ARC
                       </a>
                     </p>
@@ -407,12 +449,12 @@ class App extends Component {
                 <div className="investments-section">
                   <div className="investment-item col-md-6">
                     <a href="http://nutravel.com/" target={"_blank"}>
-                    <img
-                      src="https://www2.arccorp.com/globalassets/about-us/our-story/NUTRAVEL.png"
-                      className="investment-icon"
-                      style={{ width: "180px", height: "60px" }}
-                      alt=""
-                    />
+                      <img
+                        src="https://www2.arccorp.com/globalassets/about-us/our-story/NUTRAVEL.png"
+                        className="investment-icon"
+                        style={{ width: "180px", height: "60px" }}
+                        alt=""
+                      />
                     </a>
                     <p className="investment-info">
                       ARC has a majority interest in nuTravel, an independent
@@ -426,12 +468,12 @@ class App extends Component {
                   </div>
                   <div className="investment-item col-md-6">
                     <a href="https://www.blockskye.com/" target={"_blank"}>
-                    <img
-                      src="https://www2.arccorp.com/globalassets/about-us/our-story/BLOCKSKYE.png"
-                      className="investment-icon"
-                      style={{ width: "207px", height: "45px" }}
-                      alt=""
-                    />
+                      <img
+                        src="https://www2.arccorp.com/globalassets/about-us/our-story/BLOCKSKYE.png"
+                        className="investment-icon"
+                        style={{ width: "207px", height: "45px" }}
+                        alt=""
+                      />
                     </a>
                     <p className="investment-info">
                       Blockskye is a leader in blockchain solutions for the
@@ -442,12 +484,12 @@ class App extends Component {
                   </div>
                   <div className="investment-item col-md-6">
                     <a href="https://www.traxo.com/" target={"_blank"}>
-                    <img
-                      src="https://www2.arccorp.com/globalassets/about-us/our-story/TRAXO.png"
-                      className="investment-icon"
-                      style={{ width: "197px", height: "58px" }}
-                      alt=""
-                    />
+                      <img
+                        src="https://www2.arccorp.com/globalassets/about-us/our-story/TRAXO.png"
+                        className="investment-icon"
+                        style={{ width: "197px", height: "58px" }}
+                        alt=""
+                      />
                     </a>
                     <p className="investment-info">
                       Traxo’s solutions enable corporate travel managers to see
@@ -459,12 +501,12 @@ class App extends Component {
                   </div>
                   <div className="investment-item col-md-6">
                     <a href="https://www.3victors.com/" target={"_blank"}>
-                    <img
-                      src="https://www2.arccorp.com/globalassets/about-us/our-story/3VICTORS.png"
-                      className="investment-icon"
-                      style={{ width: "246px", height: "73px" }}
-                      alt=""
-                    />
+                      <img
+                        src="https://www2.arccorp.com/globalassets/about-us/our-story/3VICTORS.png"
+                        className="investment-icon"
+                        style={{ width: "246px", height: "73px" }}
+                        alt=""
+                      />
                     </a>
                     <p className="investment-info">
                       3Victors is a big-data travel technology company that
@@ -480,10 +522,10 @@ class App extends Component {
           </div>
         </div>
         <div className="story-section7">
-          <div className="container section7-container">
-            <div className="story-brand" id="brand">
-              <div className="row">
-                <div className="col-lg-6 story-section7-col">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="story-brand" id="brand">
                   <div
                     className="story-section7-header brand-header story-header"
                     style={{ marginRight: "28px" }}
@@ -494,32 +536,41 @@ class App extends Component {
                   <p className="section7-p brand-p">
                     Our brand identity reflects our expertise, our pride in our
                     work and our vision for the future. <br />
-                    <a href="https://www2.arccorp.com/about-us/our-story/arc-brand/" className="section7-a">
+                    <a
+                      href="https://www2.arccorp.com/about-us/our-story/arc-brand/"
+                      className="section7-a"
+                    >
                       About the Brand
                     </a>
                   </p>
                 </div>
               </div>
-            </div>
-            <div className="row" className="story-people" id="people">
-              <div className="col-lg-6 story-section7-col">
-                <div className="story-section7-header story-header">
-                  <span className="story-preHeader">Our</span>{" "}
-                  <span className="story-mainHeader">People</span>
+              <div className="col-lg-6">
+                <div className="story-people" id="people">
+                  <div className="story-section7-header story-header">
+                    <span className="story-preHeader">Our</span>{" "}
+                    <span className="story-mainHeader">People</span>
+                  </div>
+                  <p className="section7-p people-p">
+                    ARC is home to some of the most brilliant minds in the
+                    travel industry. We find fullfilment in helping our
+                    customers thrive. We thing big, embrace challenges and
+                    identify creative solutions. <br />
+                    <a
+                      href="https://www2.arccorp.com/about-us/leadership-governance/"
+                      className="section7-a"
+                    >
+                      Meet our Leadership
+                    </a>{" "}
+                    <br />
+                    <a
+                      href="https://www2.arccorp.com/about-us/careers/"
+                      className="section7-a"
+                    >
+                      Join our Team
+                    </a>
+                  </p>
                 </div>
-                <p className="section7-p people-p">
-                  ARC is home to some of the most brilliant minds in the travel
-                  industry. We find fullfilment in helping our customers thrive.
-                  We thing big, embrace challenges and identify creative
-                  solutions. <br />
-                  <a href="https://www2.arccorp.com/about-us/leadership-governance/" className="section7-a">
-                    Meet our Leadership
-                  </a>{" "}
-                  <br />
-                  <a href="https://www2.arccorp.com/about-us/careers/" className="section7-a">
-                    Join our Team
-                  </a>
-                </p>
               </div>
             </div>
           </div>
@@ -536,13 +587,30 @@ class App extends Component {
                   Our vision to enable the growth of global air travel to
                   strengthen economies and enrich lives. We are dedicated to
                   developing our organization and culture to realize this
-                  vision. Our <a href="https://www2.arccorp.com/globalassets/about-us/code-of-conduct-policy_final_cov.pdf" className="commitment-a">Code of Conduct</a> reflects our commitment to
-                  accomplishing this through compliance with applicable laws and
-                  regulations and by adopting best practices that will set us
-                  apart from our competitors.
+                  vision. Our{" "}
+                  <a
+                    href="https://www2.arccorp.com/globalassets/about-us/code-of-conduct-policy_final_cov.pdf"
+                    className="commitment-a"
+                  >
+                    Code of Conduct
+                  </a>{" "}
+                  reflects our commitment to accomplishing this through
+                  compliance with applicable laws and regulations and by
+                  adopting best practices that will set us apart from our
+                  competitors.
                 </p>
                 <small className="commitment-small">
-                Navex Global EthicsPoint (an independent, anonymous service) can be accessed 24/7 by phone at 1-866-294-5698 or through their <a href="https://secure.ethicspoint.com/domain/en/default_reporter.asp" target={"_blank"} className="commitment-a">online portal</a> (enter entity name as Airlines Reporting Corporation). 
+                  Navex Global EthicsPoint (an independent, anonymous service)
+                  can be accessed 24/7 by phone at 1-866-294-5698 or through
+                  their{" "}
+                  <a
+                    href="https://secure.ethicspoint.com/domain/en/default_reporter.asp"
+                    target={"_blank"}
+                    className="commitment-a"
+                  >
+                    online portal
+                  </a>{" "}
+                  (enter entity name as Airlines Reporting Corporation).
                 </small>
               </div>
             </div>

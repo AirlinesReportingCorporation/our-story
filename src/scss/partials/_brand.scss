@@ -8,63 +8,62 @@
 }
 
 .story-section7-col {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .story-section7-header {
-    margin-top: 334px;
-    margin-bottom: 20px;
+  margin-top: 334px;
+  margin-bottom: 20px;
 }
 
 .section7-container {
   flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
 }
 
 .section7-p {
-    position: relative;
-    z-index: 2;
-    color: $white;
-    font-size: 20px;
-    width: 420px;
-    
+  position: relative;
+  z-index: 2;
+  color: $white;
+  font-size: 20px;
+  max-width: 450px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section7-a {
-    text-transform: uppercase;
-    font-family: SourceSansPro-Semibold, Arial, Helvetica, sans-serif;
-    line-height: 45px;
+  text-transform: uppercase;
+  font-family: SourceSansPro-Semibold, Arial, Helvetica, sans-serif;
+  line-height: 45px;
 
-
-    &::after {
-        font-family: "icomoon";
-        content: "\E909";
-        font-size: 1rem;
-        margin-left: 10px;
-        }
+  &::after {
+    font-family: "icomoon";
+    content: "\E909";
+    font-size: 1rem;
+    margin-left: 10px;
+  }
 }
 .story-brand {
   background-image: url("https://www2.arccorp.com/globalassets/about-us/our-story/our-brand.png");
-  background-size: contain; /* <------ */
+  background-size: cover; /* <------ */
   background-repeat: no-repeat;
   position: relative;
   max-width: 700px;
   border-radius: 10px;
   border: 1.5px solid rgba(255, 255, 255, 0.2);
-  height: 800px;
+  height: 885px;
 }
 
 @media (max-width: 990px) {
-
   .section7-container {
     justify-content: center;
     flex-wrap: wrap;
-
   }
 
   .story-section7-header {
@@ -72,17 +71,15 @@
   }
 
   .section7-p {
-    width: 343px;
     text-align: center;
   }
 
   .story-brand {
-    max-width: 350px;
-    height: 500px;
+    height: auto;
     margin-bottom: 20px;
   }
 
   .brand-header {
     margin-right: 0;
-}
+  }
 }
