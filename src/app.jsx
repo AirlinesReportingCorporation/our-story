@@ -439,13 +439,13 @@ class App extends Component {
         </div>
         <div className="story-investments">
           <div
-            className="container"
+            className="container investments-section"
             style={{ position: "relative", zIndex: "2" }}
             id="investments"
           >
             <div className="row">
-              <div className="col-lg-12">
-                <div className="story-investments-header story-header">
+              <div className="col-12">
+              <div className="story-investments-header story-header">
                   <span className="story-preHeader">Our</span>{" "}
                   <span className="story-mainHeader">Investments</span>
                 </div>
@@ -456,8 +456,9 @@ class App extends Component {
                   technology. These investments help ARC deliver robust products
                   and services faster and at scale.
                 </p>
-                <div className="investments-section">
-                  <div className="row">
+              </div>
+              </div>
+                  <div className="row" style={{paddingBottom:"40px"}}>
                     <div className="investment-item col-md-6">
                       <a href="http://nutravel.com/" target={"_blank"}>
                         <img
@@ -477,7 +478,7 @@ class App extends Component {
                       </p>
                       <hr className="investment-hr"></hr>
                     </div>
-                    <div className="investment-item col-md-6">
+                    <div className="investment-item col-md-6" style={{marginTop:"15px"}}>
                       <a href="https://www.blockskye.com/" target={"_blank"}>
                         <img
                           src="https://www2.arccorp.com/globalassets/about-us/our-story/BLOCKSKYE.png"
@@ -494,8 +495,8 @@ class App extends Component {
                       <hr className="investment-hr"></hr>
                     </div>
                   </div>
-                  <div className="row" style={{ marginBottom: "40px" }}>
-                    <div className="investment-item col-md-6">
+                  <div className="row">
+                    <div className="investment-item col-md-6" style={{marginTop:"15px"}}>
                       <a href="https://www.traxo.com/" target={"_blank"}>
                         <img
                           src="https://www2.arccorp.com/globalassets/about-us/our-story/TRAXO.png"
@@ -530,13 +531,9 @@ class App extends Component {
                       <hr className="investment-hr"></hr>
                     </div>
                   </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
         <div className="story-section7">
-          <div className="container">
             <div className="row">
               <div className="col-lg-6">
                 <div className="story-brand" id="brand">
@@ -587,7 +584,6 @@ class App extends Component {
                 </div>
               </div>
             </div>
-          </div>
         </div>
         <div className="story-commitment">
           <div className="container">

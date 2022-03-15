@@ -5,6 +5,7 @@
   background-position: center center;
   display: flex;
   padding-bottom: 55px;
+  justify-content: center;
 }
 
 .story-section7-col {
@@ -50,14 +51,15 @@
   }
 }
 .story-brand {
-  background-image: url("https://www2.arccorp.com/globalassets/about-us/our-story/our-brand.png");
-  background-size: cover; /* <------ */
+  background-image: url(https://www2.arccorp.com/globalassets/about-us/our-story/our-brand.png);
+  background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
-  max-width: 700px;
+  background-position: right;
+  max-width: 610px;
   border-radius: 10px;
   border: 1.5px solid rgba(255, 255, 255, 0.2);
   height: 885px;
+  margin-right: 28px;
 }
 
 @media (max-width: 990px) {
