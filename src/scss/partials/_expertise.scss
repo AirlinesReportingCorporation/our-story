@@ -2,6 +2,7 @@
   background-color: $teal;
   border-radius: 10px;
   margin-bottom: 80px;
+  width: 1280px;
 }
 
 .story-preHeader {
@@ -20,15 +21,19 @@
 .expertise-top-slants {
   margin-bottom: 80px;
 }
+.col-lg-12{
+  padding: 0px;
+}
 
 .expertise-info {
   margin: auto;
     display: flex;
     justify-content: space-between;
+    margin: 0px 90px;
 }
 
 .expertise-data {
-  margin: 0 25px;
+  padding: 0px;
 }
 
 .expertise-info-header {
@@ -72,7 +77,7 @@
 @media (max-width: 990px) {
 
 .expertise-item {
-  max-width: 65%;
+  max-width: 335px;
   margin: 20px auto;
 } 
 

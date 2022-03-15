@@ -31,15 +31,14 @@
   border-top: $teal solid 10px;
   border-radius: 10px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  padding: 50px;
 }
 
 .story-section3-header {
   font-family: SourceSansPro-Bold, Arial, Helvetica, sans-serif;
   color: $white;
   font-size: 42px;
+  margin-bottom: 60px;
 }
 
 .story-section3-text {
