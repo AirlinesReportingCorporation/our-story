@@ -3,6 +3,8 @@
   border-radius: 10px;
   margin-bottom: 80px;
   width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .story-preHeader {
@@ -30,6 +32,12 @@
     display: flex;
     justify-content: space-between;
     margin: 0px 90px;
+}
+
+.expertise-info-section {
+  max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .expertise-data {

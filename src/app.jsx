@@ -262,20 +262,26 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div className="container story-expertise" id="expertise">
+        <div className="story-expertise" id="expertise">
+          <img
+            src="https://www2.arccorp.com/globalassets/about-us/our-story/slants.png"
+            alt=""
+            className="story-slants expertise-top-slants"
+          />
+
           <div className="row">
             <div className="col-lg-12">
-              <img
-                src="https://www2.arccorp.com/globalassets/about-us/our-story/slants.png"
-                alt=""
-                className="story-slants expertise-top-slants"
-              />
               <div className="story-expertise-header story-header">
                 <span className="story-preHeader">Our</span>{" "}
                 <span className="story-mainHeader">Expertise</span>
               </div>
-              <div className="expertise-info">
-                <div className="expertise-data col-lg-3">
+            </div>
+          </div>
+
+          <div className="expertise-info">
+            <div className="row">
+              <div className="col-lg-4">
+                <div className="expertise-info-section">
                   <span className="expertise-info-header">
                     Global Data & Analytics
                   </span>
@@ -302,7 +308,8 @@ class App extends Component {
                       </a>
                     </p>
                   </div>
-                  {/* <div className="expertise-item">
+                </div>
+                {/* <div className="expertise-item">
                     <p className="expertise-info-text">
                       ARC data powers industry research and solutions provided
                       by many partners, including, ForwardKeys and Skytra.{" "}
@@ -312,7 +319,7 @@ class App extends Component {
                       </a>
                     </p>
                   </div> */}
-                  {/* <div className="expertise-item">
+                {/* <div className="expertise-item">
                     <p className="expertise-info-text">
                       ARC offers flexible data solutions to fit your company’s
                       needs. <br></br>
@@ -321,8 +328,9 @@ class App extends Component {
                       </a>
                     </p>
                   </div> */}
-                </div>
-                <div className="expertise-data col-lg-3">
+              </div>
+              <div className="col-lg-4">
+                <div className="expertise-info-section">
                   <span className="expertise-info-header">
                     Distribution & Financial Services
                   </span>
@@ -375,7 +383,9 @@ class App extends Component {
                     </p>
                   </div>
                 </div>
-                <div className="expertise-data col-lg-3">
+              </div>
+              <div className="col-lg-4">
+                <div className="expertise-info-section">
                   <span className="expertise-info-header">
                     Technology & Innovation
                   </span>
@@ -419,13 +429,13 @@ class App extends Component {
                   </div>
                 </div>
               </div>
-              <img
-                src="https://www2.arccorp.com/globalassets/about-us/our-story/slants.png"
-                alt=""
-                className="story-slants expertise-bottom-slants"
-              />
             </div>
           </div>
+          <img
+            src="https://www2.arccorp.com/globalassets/about-us/our-story/slants.png"
+            alt=""
+            className="story-slants expertise-bottom-slants"
+          />
         </div>
         <div className="story-investments">
           <div
@@ -484,7 +494,7 @@ class App extends Component {
                       <hr className="investment-hr"></hr>
                     </div>
                   </div>
-                  <div className="row" style={{marginBottom:"40px"}}>
+                  <div className="row" style={{ marginBottom: "40px" }}>
                     <div className="investment-item col-md-6">
                       <a href="https://www.traxo.com/" target={"_blank"}>
                         <img
