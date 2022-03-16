@@ -450,17 +450,19 @@ class App extends Component {
           >
             <div className="row">
               <div className="col-12">
-                <div className="story-investments-header story-header">
+                <div className="story-investments-header">
+                  <div className="story-header">
                   <span className="story-preHeader">Our</span>{" "}
                   <span className="story-mainHeader">Investments</span>
-                </div>
-                <p className="story-investments-p">
+                  </div>
+                  <p className="story-investments-p">
                   ARC looks for opportunities to make strategic investments that
                   support the changing needs of the global travel community
                   while retaining industry ownership of critical systems and
                   technology. These investments help ARC deliver robust products
                   and services faster and at scale.
                 </p>
+                </div>
               </div>
             </div>
             <div className="row" style={{ paddingBottom: "40px" }}>

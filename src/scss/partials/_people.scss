@@ -3,16 +3,17 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: inherit;
-  max-width: 610px;
+  width: 610px;
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255,255,255,.3);
   height: 885px;
-  margin-left: 28px; 
+  margin-left: 30px;
 }
 
 @media (max-width: 990px) {
   .story-people {
     height: auto;
-    margin-left: auto;
+    margin: auto;
+    max-width: 350px;
   }
 }

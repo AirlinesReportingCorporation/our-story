@@ -52,14 +52,14 @@
 }
 .story-brand {
   background-image: url(https://www2.arccorp.com/globalassets/about-us/our-story/our-brand.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
-  max-width: 610px;
-  border-radius: 10px;
-  border: 1.5px solid rgba(255, 255, 255, 0.2);
-  height: 885px;
-  margin-right: 28px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    max-width: 610px;
+    border-radius: 10px;
+    border: 1.5px solid rgba(255,255,255,.2);
+    height: 885px;
+    margin-left: -150px;
 }
 
 @media (max-width: 990px) {
@@ -82,8 +82,8 @@
 
   .story-brand {
     height: auto;
-    margin-bottom: 40px;
-    margin-right: auto;
+    max-width: 350px;
+    margin: auto auto 40px auto;
   }
 
   .brand-header {
