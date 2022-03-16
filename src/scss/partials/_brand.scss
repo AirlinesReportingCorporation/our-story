@@ -63,6 +63,10 @@
 }
 
 @media (max-width: 990px) {
+  .story-section7 {
+    padding-bottom: 0px;
+  }
+
   .section7-container {
     justify-content: center;
     flex-wrap: wrap;
@@ -78,7 +82,8 @@
 
   .story-brand {
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-right: auto;
   }
 
   .brand-header {
