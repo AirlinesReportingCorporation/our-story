@@ -17,10 +17,6 @@ class App extends Component {
           <div className="story-sticky-inner">
             <div className="story-sticky-nav">
             <div className="story-sticky-brand d-flex align-items-center">
-              <img
-                src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-s-white.png"
-                alt="ARC Logo"
-              />
               <div className="product-sticky-title" style={{lineHeight: "20px"}}>
                 Our Story
               </div>
