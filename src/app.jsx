@@ -16,6 +16,15 @@ class App extends Component {
         <div className="story-sticky-container" style={{ zIndex: "12" }}>
           <div className="story-sticky-inner">
             <div className="story-sticky-nav">
+            <div className="story-sticky-brand d-flex align-items-center">
+              <img
+                src="https://www2.arccorp.com/globalassets/arc-logos/corporate-logos/arc-logo-s-white.png"
+                alt="ARC Logo"
+              />
+              <div className="product-sticky-title" style={{lineHeight: "20px"}}>
+                Our Story
+              </div>
+            </div>
               <div className="story-sticky-links d-flex align-items-center">
                 <a href="#customers" className="story-sticky-link">
                   Our Customers
@@ -445,7 +454,7 @@ class App extends Component {
           >
             <div className="row">
               <div className="col-12">
-              <div className="story-investments-header story-header">
+                <div className="story-investments-header story-header">
                   <span className="story-preHeader">Our</span>{" "}
                   <span className="story-mainHeader">Investments</span>
                 </div>
@@ -457,133 +466,138 @@ class App extends Component {
                   and services faster and at scale.
                 </p>
               </div>
-              </div>
-                  <div className="row" style={{paddingBottom:"40px"}}>
-                    <div className="investment-item col-md-6">
-                      <a href="http://nutravel.com/" target={"_blank"}>
-                        <img
-                          src="https://www2.arccorp.com/globalassets/about-us/our-story/NUTRAVEL.png"
-                          className="investment-icon"
-                          style={{ width: "180px", height: "60px" }}
-                          alt=""
-                        />
-                      </a>
-                      <p className="investment-info">
-                        ARC has a majority interest in nuTravel, an independent
-                        company that builds custom and integrated booking,
-                        loyalty management, and e-commerce platforms, supporting
-                        suppliers’ corporate customer strategy. Universal
-                        Connect is their newest solution, offering travel
-                        managers the ability to manage direct bookings.
-                      </p>
-                      <hr className="investment-hr"></hr>
-                    </div>
-                    <div className="investment-item col-md-6" style={{marginTop:"15px"}}>
-                      <a href="https://www.blockskye.com/" target={"_blank"}>
-                        <img
-                          src="https://www2.arccorp.com/globalassets/about-us/our-story/BLOCKSKYE.png"
-                          className="investment-icon"
-                          style={{ width: "207px", height: "45px" }}
-                          alt=""
-                        />
-                      </a>
-                      <p className="investment-info">
-                        Blockskye is a leader in blockchain solutions for the
-                        travel industry, offering solutions that support sales,
-                        reporting and expense management.
-                      </p>
-                      <hr className="investment-hr"></hr>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="investment-item col-md-6" style={{marginTop:"15px"}}>
-                      <a href="https://www.traxo.com/" target={"_blank"}>
-                        <img
-                          src="https://www2.arccorp.com/globalassets/about-us/our-story/TRAXO.png"
-                          className="investment-icon"
-                          style={{ width: "197px", height: "58px" }}
-                          alt=""
-                        />
-                      </a>
-                      <p className="investment-info">
-                        Traxo’s solutions enable corporate travel managers to
-                        see a complete view of traveler activity by integrating
-                        agency and direct booking data supporting program
-                        management and duty of care.
-                      </p>
-                      <hr className="investment-hr"></hr>
-                    </div>
-                    <div className="investment-item col-md-6">
-                      <a href="https://www.3victors.com/" target={"_blank"}>
-                        <img
-                          src="https://www2.arccorp.com/globalassets/about-us/our-story/3VICTORS.png"
-                          className="investment-icon"
-                          style={{ width: "246px", height: "73px" }}
-                          alt=""
-                        />
-                      </a>
-                      <p className="investment-info">
-                        3Victors is a big-data travel technology company that
-                        provides data and analytics to generate insights
-                        uncovering demand, pricing, marketing and revenue
-                        opportunities.
-                      </p>
-                      <hr className="investment-hr"></hr>
-                    </div>
-                  </div>
             </div>
+            <div className="row" style={{ paddingBottom: "40px" }}>
+              <div className="investment-item col-md-6">
+                <a href="http://nutravel.com/" target={"_blank"}>
+                  <img
+                    src="https://www2.arccorp.com/globalassets/about-us/our-story/NUTRAVEL.png"
+                    className="investment-icon"
+                    style={{ width: "180px", height: "60px" }}
+                    alt=""
+                  />
+                </a>
+                <p className="investment-info">
+                  ARC has a majority interest in nuTravel, an independent
+                  company that builds custom and integrated booking, loyalty
+                  management, and e-commerce platforms, supporting suppliers’
+                  corporate customer strategy. Universal Connect is their newest
+                  solution, offering travel managers the ability to manage
+                  direct bookings.
+                </p>
+                <hr className="investment-hr"></hr>
+              </div>
+              <div
+                className="investment-item col-md-6"
+                style={{ marginTop: "15px" }}
+              >
+                <a href="https://www.blockskye.com/" target={"_blank"}>
+                  <img
+                    src="https://www2.arccorp.com/globalassets/about-us/our-story/BLOCKSKYE.png"
+                    className="investment-icon"
+                    style={{ width: "207px", height: "45px" }}
+                    alt=""
+                  />
+                </a>
+                <p className="investment-info">
+                  Blockskye is a leader in blockchain solutions for the travel
+                  industry, offering solutions that support sales, reporting and
+                  expense management.
+                </p>
+                <hr className="investment-hr"></hr>
+              </div>
+            </div>
+            <div className="row">
+              <div
+                className="investment-item col-md-6"
+                style={{ marginTop: "15px" }}
+              >
+                <a href="https://www.traxo.com/" target={"_blank"}>
+                  <img
+                    src="https://www2.arccorp.com/globalassets/about-us/our-story/TRAXO.png"
+                    className="investment-icon"
+                    style={{ width: "197px", height: "58px" }}
+                    alt=""
+                  />
+                </a>
+                <p className="investment-info">
+                  Traxo’s solutions enable corporate travel managers to see a
+                  complete view of traveler activity by integrating agency and
+                  direct booking data supporting program management and duty of
+                  care.
+                </p>
+                <hr className="investment-hr"></hr>
+              </div>
+              <div className="investment-item col-md-6">
+                <a href="https://www.3victors.com/" target={"_blank"}>
+                  <img
+                    src="https://www2.arccorp.com/globalassets/about-us/our-story/3VICTORS.png"
+                    className="investment-icon"
+                    style={{ width: "246px", height: "73px" }}
+                    alt=""
+                  />
+                </a>
+                <p className="investment-info">
+                  3Victors is a big-data travel technology company that provides
+                  data and analytics to generate insights uncovering demand,
+                  pricing, marketing and revenue opportunities.
+                </p>
+                <hr className="investment-hr"></hr>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="story-section7">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="story-brand" id="brand">
-                  <div
-                    className="story-section7-header brand-header story-header"
-                    style={{ marginRight: "28px" }}
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="story-brand" id="brand">
+                <div
+                  className="story-section7-header brand-header story-header"
+                  style={{ marginRight: "28px" }}
+                >
+                  <span className="story-preHeader">Our</span>{" "}
+                  <span className="story-mainHeader">Brand</span>
+                </div>
+                <p className="section7-p brand-p">
+                  Our brand identity reflects our expertise, our pride in our
+                  work and our vision for the future. <br />
+                  <a
+                    href="https://www2.arccorp.com/about-us/our-story/arc-brand/"
+                    className="section7-a"
                   >
-                    <span className="story-preHeader">Our</span>{" "}
-                    <span className="story-mainHeader">Brand</span>
-                  </div>
-                  <p className="section7-p brand-p">
-                    Our brand identity reflects our expertise, our pride in our
-                    work and our vision for the future. <br />
-                    <a
-                      href="https://www2.arccorp.com/about-us/our-story/arc-brand/"
-                      className="section7-a"
-                    >
-                      About the Brand
-                    </a>
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="story-people" id="people">
-                  <div className="story-section7-header story-header">
-                    <span className="story-preHeader">Our</span>{" "}
-                    <span className="story-mainHeader">People</span>
-                  </div>
-                  <p className="section7-p people-p">
-                    ARC is home to some of the most brilliant minds in the
-                    travel industry. We find fulfillment in helping our
-                    customers thrive. We think big, embrace challenges and
-                    identify creative solutions. <br />
-                    <a
-                      href="https://www2.arccorp.com/about-us/leadership-governance/"
-                      className="section7-a"
-                    >
-                      Meet our Leadership
-                    </a>{" "}
-                    <br />
-                    <a
-                      href="https://www2.arccorp.com/about-us/careers/"
-                      className="section7-a"
-                    >
-                      Join our Team
-                    </a>
-                  </p>
-                </div>
+                    About the Brand
+                  </a>
+                </p>
               </div>
             </div>
+            <div className="col-lg-6">
+              <div className="story-people" id="people">
+                <div className="story-section7-header story-header">
+                  <span className="story-preHeader">Our</span>{" "}
+                  <span className="story-mainHeader">People</span>
+                </div>
+                <p className="section7-p people-p">
+                  ARC is home to some of the most brilliant minds in the travel
+                  industry. We find fulfillment in helping our customers thrive.
+                  We think big, embrace challenges and identify creative
+                  solutions. <br />
+                  <a
+                    href="https://www2.arccorp.com/about-us/leadership-governance/"
+                    className="section7-a"
+                  >
+                    Meet our Leadership
+                  </a>{" "}
+                  <br />
+                  <a
+                    href="https://www2.arccorp.com/about-us/careers/"
+                    className="section7-a"
+                  >
+                    Join our Team
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="story-commitment">
           <div className="container">
