@@ -489,27 +489,6 @@ class App extends Component {
                 className="investment-item col-md-6"
                 style={{ marginTop: "15px" }}
               >
-                <a href="https://www.blockskye.com/" target={"_blank"}>
-                  <img
-                    src="https://www2.arccorp.com/globalassets/about-us/our-story/BLOCKSKYE.png"
-                    className="investment-icon"
-                    style={{ width: "207px", height: "45px" }}
-                    alt=""
-                  />
-                </a>
-                <p className="investment-info">
-                  Blockskye is a leader in blockchain solutions for the travel
-                  industry, offering solutions that support sales, reporting and
-                  expense management.
-                </p>
-                <hr className="investment-hr"></hr>
-              </div>
-            </div>
-            <div className="row">
-              <div
-                className="investment-item col-md-6"
-                style={{ marginTop: "15px" }}
-              >
                 <a href="https://www.traxo.com/" target={"_blank"}>
                   <img
                     src="https://www2.arccorp.com/globalassets/about-us/our-story/TRAXO.png"
@@ -526,6 +505,9 @@ class App extends Component {
                 </p>
                 <hr className="investment-hr"></hr>
               </div>
+            </div>
+            <div className="row">
+
               <div className="investment-item col-md-6">
                 <a href="https://www.3victors.com/" target={"_blank"}>
                   <img
