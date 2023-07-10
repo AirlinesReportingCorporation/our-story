@@ -16,11 +16,14 @@ class App extends Component {
         <div className="story-sticky-container" style={{ zIndex: "12" }}>
           <div className="story-sticky-inner">
             <div className="story-sticky-nav">
-            <div className="story-sticky-brand d-flex align-items-center">
-              <div className="product-sticky-title" style={{lineHeight: "20px"}}>
-                Our Story
+              <div className="story-sticky-brand d-flex align-items-center">
+                <div
+                  className="product-sticky-title"
+                  style={{ lineHeight: "20px" }}
+                >
+                  Our Story
+                </div>
               </div>
-            </div>
               <div className="story-sticky-links d-flex align-items-center">
                 <a href="#customers" className="story-sticky-link">
                   Our Customers
@@ -452,16 +455,16 @@ class App extends Component {
               <div className="col-12">
                 <div className="story-investments-header">
                   <div className="story-header">
-                  <span className="story-preHeader">Our</span>{" "}
-                  <span className="story-mainHeader">Investments</span>
+                    <span className="story-preHeader">Our</span>{" "}
+                    <span className="story-mainHeader">Investments</span>
                   </div>
                   <p className="story-investments-p">
-                  ARC looks for opportunities to make strategic investments that
-                  support the changing needs of the global travel community
-                  while retaining industry ownership of critical systems and
-                  technology. These investments help ARC deliver robust products
-                  and services faster and at scale.
-                </p>
+                    ARC looks for opportunities to make strategic investments
+                    that support the changing needs of the global travel
+                    community while retaining industry ownership of critical
+                    systems and technology. These investments help ARC deliver
+                    robust products and services faster and at scale.
+                  </p>
                 </div>
               </div>
             </div>
@@ -507,7 +510,6 @@ class App extends Component {
               </div>
             </div>
             <div className="row">
-
               <div className="investment-item col-md-6">
                 <a href="https://www.3victors.com/" target={"_blank"}>
                   <img
@@ -604,18 +606,29 @@ class App extends Component {
                   competitors.
                 </p>
                 <small className="commitment-small">
-                  Navex Global EthicsPoint (an independent, anonymous service)
-                  can be accessed 24/7 by phone at 1-866-294-5698 or through
-                  their{" "}
+                  Navex Global EthicsPoint, an independent, anonymous service,
+                  can be accessed 24X7 via the QR code below, their
                   <a
-                    href="https://secure.ethicspoint.com/domain/en/default_reporter.asp"
+                    href="https://arccorp.navexone.com/"
                     target={"_blank"}
                     className="commitment-a"
                   >
                     online portal
                   </a>{" "}
-                  (enter entity name as Airlines Reporting Corporation).
+                  , or via phone at 1.866.294.5698.
                 </small>
+                <p>
+                  <img
+                    style="height: 60px; padding-right: 30px;"
+                    alt=""
+                    src="https://arccorp365.sharepoint.com/sites/Marketing/Lists/Marketing%20Requests/Attachments/3291/EthicsPointMobileQR.gif"
+                  />
+                  <a href="https://arccorp.navexone.com/">
+                    <button class="ctaBtn ethicsBtn" style="margin-top: 38px;">
+                      File a report
+                    </button>
+                  </a>
+                </p>
               </div>
             </div>
           </div>
