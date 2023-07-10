@@ -607,8 +607,8 @@ class App extends Component {
                 </p>
                 <small className="commitment-small">
                   Navex Global EthicsPoint, an independent, anonymous service,
-                  can be accessed 24X7 via the QR code below, their
-                  <a
+                  can be accessed 24X7 via the QR code below, their 
+                  {" "}<a
                     href="https://arccorp.navexone.com/"
                     target={"_blank"}
                     className="commitment-a"
@@ -619,12 +619,12 @@ class App extends Component {
                 </small>
                 <p>
                   <img
-                    style="height: 60px; padding-right: 30px;"
+                    style={{height: "60px", paddingRight: "30px"}}
                     alt=""
-                    src="https://arccorp365.sharepoint.com/sites/Marketing/Lists/Marketing%20Requests/Attachments/3291/EthicsPointMobileQR.gif"
+                    src="https://www2.arccorp.com/globalassets/about-us/our-story/ethicspointmobileqr.gif"
                   />
                   <a href="https://arccorp.navexone.com/">
-                    <button class="ctaBtn ethicsBtn" style="margin-top: 38px;">
+                    <button class="ctaBtn ethicsBtn" style={{marginTop: "38px"}}>
                       File a report
                     </button>
                   </a>
