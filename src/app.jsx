@@ -470,16 +470,16 @@ class App extends Component {
             </div>
             <div className="row" style={{ paddingBottom: "40px" }}>
               <div className="investment-item col-md-6">
-                <a href="http://nutravel.com/" target={"_blank"}>
+                <a href="https://www.traverse.tech/" target={"_blank"}>
                   <img
-                    src="https://www2.arccorp.com/globalassets/about-us/our-story/NUTRAVEL.png"
+                    src="https://www2.arccorp.com/globalassets/about-us/our-story/Traverse-Logo-White.svg"
                     className="investment-icon"
-                    style={{ width: "180px", height: "60px" }}
+                    style={{ width: "220px", height: "auto" }}
                     alt=""
                   />
                 </a>
                 <p className="investment-info">
-                  ARC has a majority interest in nuTravel, an independent
+                  ARC has a majority interest in Traverse Technologies, an independent
                   company that builds custom and integrated booking, loyalty
                   management, and e-commerce platforms, supporting suppliers’
                   corporate customer strategy. Universal Connect is their newest
