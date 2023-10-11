@@ -72,8 +72,8 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div className="story-section2">
-          <div className="container story-section2-globe">
+        <div className="story-section2 story-section2-globe">
+          <div className="container">
             <div className="row">
               <div className="col-lg-12">
                 <div className="story-section2-p1">

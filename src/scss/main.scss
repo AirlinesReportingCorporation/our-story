@@ -13,3 +13,46 @@
 @import "partials/brand.scss";
 @import "partials/people.scss";
 @import "partials/commitment.scss";
+
+@media screen and (max-width: 767.9px) {
+    .story-section1 {
+        padding-bottom: 4px;
+
+    }
+    .our-story-title {
+        margin-top: 60px;
+        margin-bottom: 100px;
+        margin-right: unset;
+    }
+    .story-title-text {
+        font-size: 23px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .story-section2-passenger {
+        margin-bottom: 45px;
+    }
+
+    .story-section2-p1, .story-section2-p2 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .story-section3-header {
+        margin-bottom: 40px;
+    }
+    .story-section3-item {
+        height: auto;
+        min-height: 362px
+    }
+
+    .expertise-info-section {
+        padding-bottom: 30px;
+    }
+
+    .commitment-p {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
