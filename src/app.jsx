@@ -509,24 +509,6 @@ class App extends Component {
                 <hr className="investment-hr"></hr>
               </div>
             </div>
-            <div className="row">
-              <div className="investment-item col-md-6">
-                <a href="https://www.3victors.com/" target={"_blank"}>
-                  <img
-                    src="https://www2.arccorp.com/globalassets/about-us/our-story/3VICTORS.png"
-                    className="investment-icon"
-                    style={{ width: "246px", height: "73px" }}
-                    alt=""
-                  />
-                </a>
-                <p className="investment-info">
-                  3Victors is a big-data travel technology company that provides
-                  data and analytics to generate insights uncovering demand,
-                  pricing, marketing and revenue opportunities.
-                </p>
-                <hr className="investment-hr"></hr>
-              </div>
-            </div>
           </div>
         </div>
         <div className="story-section7">
